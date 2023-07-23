@@ -12,6 +12,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/5be871417b.js" crossorigin="anonymous"></script>
+
     <!-- tailwind customize style  -->
     <script>
         tailwind.config = {
@@ -35,10 +38,32 @@
             font-family: 'Manrope', sans-serif;
         }
     </style>
-</head>
-<body>
-    <header>
 
+</head>
+<body class="font-manrope">
+    <header>
+        <!-- banner section design start  -->
+        <section class="max-w-screen-xl mx-auto mt-10 px-8 md:px-16 lg:px-24">
+            <div class="flex flex-col-reverse lg:flex-row gap-3">
+                <div class="flex-1">
+                    <h1 class="text-7xl font-extrabold text-[#1C1C1C]">It's good <br> tea time at <br> Bean & Beyond Cafe</h1>
+                    <p class="font-medium text-[#777] py-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white">Explore More <img src="./images/arrow.png" alt=""> </button>
+                </div>
+                <div class="flex-1">
+                    <img src="./images/banner.png" alt="">
+                    <div class="hidden md:flex items-center gap-4  w-64 drop-shadow-lg rounded-md p-4 -mt-20 mx-8 bg-white ">
+                            
+                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                        <div>
+                            <h1 class="text-xl font-extrabold">5.00</h1>
+                            <p class="font-medium text-[#777]">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner section design end  -->
     </header>
     <main>
 
